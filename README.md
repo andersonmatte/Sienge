@@ -42,4 +42,4 @@ Foi alterado o código para deixar a implementação mais limpa. A programação
 
 ## Execução 
 Após a execução da classe de teste via Junit esse é o resultado esperado:
-<img align="left" width="100%" height="500" src="/sienge_prints/Junit_1.png">
+<img align="left" width="80%" height="80%" src="/sienge_prints/Junit_1.png">
