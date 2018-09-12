@@ -5,7 +5,7 @@ As tecnologias, frameworks e ferramentas utilizadas foram Java 8, PrimeFaces 6, 
 
 ## Importando e Configurando o projeto:
 Após o download do projeto, abra o Eclipse crie um novo projeto do tipo Dynamic Web project. No new project informe a pasta sienge. Ao final do processo de criação do projeto, deverá ser criado um novo server o Tomcat 7.
-Por fim executar o Tomcat e acessar a aplicação via navegador com a url abaixo. Para execução dos teste o Tomcat não é necessário porque o teste roda via Java Application. 
+Por fim executar o Tomcat e acessar a aplicação via navegador com a url abaixo. Para execução dos testes o Tomcat não é necessário porque os testes roda via Java Application. 
 
 ## Acessando o sistema Sienge:
 Para acessar o Sienge, abra um navegador e digite ou cole na barra de endereço a URL http://localhost:8080/sienge/index.xhtml
