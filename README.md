@@ -3,6 +3,15 @@ Sienge Software para Construção Civil
 
 As tecnologias, frameworks e ferramentas utilizadas foram Java 8, PrimeFaces 6, Tomcat 7, Eclipse Oxygen e Google Chrome 63. 
 
+Abaixo os links para download caso necessário:
+
+https://www.java.com/pt_BR/download/
+https://www.primefaces.org/downloads/
+https://tomcat.apache.org/download-70.cgi
+https://www.eclipse.org/oxygen/
+https://www.google.com/intl/pt-BR_ALL/chrome/
+
+
 ## Importando e Configurando o projeto:
 Após o download do projeto, abra o Eclipse crie um novo projeto do tipo Dynamic Web project. No new project informe a pasta sienge. Ao final do processo de criação do projeto, deverá ser criado um novo server o Tomcat 7.
 Por fim executar o Tomcat e acessar a aplicação via navegador com a url abaixo. Para execução dos testes o Tomcat não é necessário porque os testes rodam via Java Application. 
@@ -52,7 +61,7 @@ Os arquivos se encontram nos diretórios abaixo nesse mesmo repositório:
 /sienge/src/br/com/teste2/teste/GeradorObservacaoTest.java
 
 ### Alterações:
-Foi alterado o código para deixar a implementação mais limpa. A programação foi mudada em GeradorObservacao.java para ter apenas um método que trata a lista de notas recebidas. Melhorado o controle de retorno para listas com um ou mais números de uma nota.A classe de teste foi mantida a original entendendo que aquele é o resultado esperado, por isso foi programado somente na classe GeradorObservacao.java.
+Foi alterado o código para deixar a implementação mais limpa. A programação foi mudada em GeradorObservacao.java para ter apenas um método que trata a lista de notas recebidas. Melhorado o controle de retorno para listas com um ou mais números de uma nota. A classe de teste foi mantida a original entendendo que aquele é o resultado esperado, por isso foi programado somente na classe GeradorObservacao.java.
 
 ## Execução 
 
