@@ -29,6 +29,7 @@ Para acessar o Sienge, abra um navegador e digite ou cole na barra de endereço 
 <img align="left" width="100%" height="500" src="/sienge_prints/Sienge_1.png">
 
 ## Teste no Sienge
+
 No projeto Sienge tem a seguinte classe /sienge/src/br/com/sienge/teste/SiengeMBeanTest.java
 Essa classe SiengeMBeanTest serve para testar o método principal do Sienge que faz o cálculo do custo total do transporte. 
 
@@ -36,17 +37,21 @@ Após a execução da classe de teste via Java Application esse é o resultado e
 <img align="left" width="80%" height="80%" src="/sienge_prints/Junit_1.png">
 
 # Avaliação Desenvolvedor Softplan - Teste 2
+
 Correção e melhorias nos arquivos enviados para análise GeradorObservacao e GeradorObservacaoTest
 Os arquivos se encontram nos diretórios abaixo nesse mesmo repositório:
 
 ### Classe Java:
+
 /sienge/src/br/com/teste2/mbean/GeradorObservacao.java 
 ### Teste:
+
 /sienge/src/br/com/teste2/teste/GeradorObservacaoTest.java
 
 ### Alterações:
 Foi alterado o código para deixar a implementação mais limpa. A programação foi mudada em GeradorObservacao.java para ter apenas um método que trata a lista de notas recebidas. Melhorado o controle de retorno para listas com um ou mais números de uma nota.A classe de teste foi mantida a original entendendo que aquele é o resultado esperado, por isso foi programado somente na classe GeradorObservacao.java.
 
 ## Execução 
+
 Após a execução da classe de teste via Junit esse é o resultado esperado:
 <img align="left" width="80%" height="80%" src="/sienge_prints/Junit_1.png">
