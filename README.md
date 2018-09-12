@@ -1,7 +1,7 @@
 # Avaliação Desenvolvedor Softplan - Teste 1
 Sienge Software para Construção Civil 
 
-As tecnologias, frameworks e ferramentas utilizadas foram Java 8, PrimeFaces 6, Eclipse Oxygen e Google Chrome 63. 
+As tecnologias, frameworks e ferramentas utilizadas foram Java 8, PrimeFaces 6, Tomcat 7, Eclipse Oxygen e Google Chrome 63. 
 
 ## Importando e Configurando o projeto:
 
