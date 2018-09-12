@@ -5,7 +5,9 @@ As tecnologias, frameworks e ferramentas utilizadas foram Java 8, PrimeFaces 6, 
 
 Abaixo os links para download caso necessário:
 
+<p>
 https://www.java.com/pt_BR/download/
+</p>  
 https://www.primefaces.org/downloads/
 https://tomcat.apache.org/download-70.cgi
 https://www.eclipse.org/oxygen/
