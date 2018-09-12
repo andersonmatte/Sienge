@@ -4,7 +4,7 @@ Sienge Software para Construção Civil
 As tecnologias, frameworks e ferramentas utilizadas foram Java 8, PrimeFaces 6, Tomcat 7, Eclipse Oxygen e Google Chrome 63. 
 
 ## Importando e Configurando o projeto:
-Após o download do projeto, abra o Eclipse crie um novo projeto do tipo Dynamic Web project.No new project informe a pasta sienge. Ao final do processo de criação do projeto, deverá ser criado um novo server o Tomcat 7.
+Após o download do projeto, abra o Eclipse crie um novo projeto do tipo Dynamic Web project. No new project informe a pasta sienge. Ao final do processo de criação do projeto, deverá ser criado um novo server o Tomcat 7.
 Por fim executar o Tomcat e acessar a aplicação via navegador com a url abaixo. Para execução dos teste o Tomcat não é necessário porque o teste roda via Java Application. 
 
 ## Acessando o sistema Sienge:
