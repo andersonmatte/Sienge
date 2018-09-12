@@ -7,11 +7,19 @@ Abaixo os links para download caso necessário:
 
 <p>
 https://www.java.com/pt_BR/download/
-</p>  
+</p> 
+<p>
 https://www.primefaces.org/downloads/
+</p> 
+<p>
 https://tomcat.apache.org/download-70.cgi
+</p> 
+<p>
 https://www.eclipse.org/oxygen/
+</p> 
+<p>
 https://www.google.com/intl/pt-BR_ALL/chrome/
+</p> 
 
 
 ## Importando e Configurando o projeto:
