@@ -11,20 +11,20 @@ Para acessar o Sienge, abra um navegador e digite ou cole na barra de endereço 
 
 ### Início:
 <img align="left" width="100%" height="500" src="/sienge_prints/Sienge_1.png">
-
+---
 ### Selecionando um veículo:
 
 <img align="left" width="100%" height="500" src="/sienge_prints/Sienge_2.png">
-
+---
 ### Informado os dados numéricos do transporte:
 
 <img align="left" width="100%" height="500" src="/sienge_prints/Sienge_3.png">
-
+---
 ### Resultado do valor do transporte é exibido ao usuário:
 
 <img align="left" width="100%" height="500" src="/sienge_prints/Sienge_4.png">
-
+---
 ### Limpar:
 
 <img align="left" width="100%" height="500" src="/sienge_prints/Sienge_1.png">
-
+---
