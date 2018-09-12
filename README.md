@@ -21,6 +21,20 @@ https://www.eclipse.org/oxygen/
 https://www.google.com/intl/pt-BR_ALL/chrome/
 </p> 
 
+**Apenas como informação, no projeto também constam as libs abaixo:
+
+<p>
+http://central.maven.org/maven2/javax/enterprise/cdi-api/1.2/
+</p> 
+<p>
+https://maven.java.net/content/repositories/releases/org/glassfish/javax.faces/2.3.0/
+</p> 
+<p>
+https://www.primefaces.org/store
+</p> 
+<p>
+http://central.maven.org/maven2/junit/junit/4.10/
+</p> 
 
 ## Importando e Configurando o projeto:
 Após o download do projeto, abra o Eclipse crie um novo projeto do tipo Dynamic Web project. No new project informe a pasta sienge. Ao final do processo de criação do projeto, deverá ser criado um novo server o Tomcat 7.
