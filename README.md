@@ -1,8 +1,7 @@
 # Sienge Software para Construção Civil
 Sienge Software para Construção Civil - Avaliação Desenvolvedor Softplan
 
-#Tecnologias, frameworks e ferramentas utilizadas:
-**Java, PrimeFaces e Eclipse 
+As tecnologias, frameworks e ferramentas utilizadas foram Java, PrimeFaces e Eclipse. 
 
 ## Importando e Configurando o projeto:
 
