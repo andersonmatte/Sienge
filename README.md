@@ -36,6 +36,8 @@ Essa classe SiengeMBeanTest serve para testar o método principal do Sienge que 
 Após a execução da classe de teste via Java Application esse é o resultado esperado:
 <img align="left" width="100%" height="80%" src="/sienge_prints/TesteSienge_1.png">
 
+### * Fique a vontade para alterar os valores diretamente na classe SiengeMBeanTest!
+
 # Avaliação Desenvolvedor Softplan - Teste 2
 
 Correção e melhorias nos arquivos enviados para análise GeradorObservacao e GeradorObservacaoTest
