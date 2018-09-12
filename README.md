@@ -34,7 +34,7 @@ No projeto Sienge tem a seguinte classe /sienge/src/br/com/sienge/teste/SiengeMB
 Essa classe SiengeMBeanTest serve para testar o método principal do Sienge que faz o cálculo do custo total do transporte. 
 
 Após a execução da classe de teste via Java Application esse é o resultado esperado:
-<img align="left" width="100%" height="80%" src="/sienge_prints/Junit_1.png">
+<img align="left" width="100%" height="80%" src="/sienge_prints/TesteSienge_1.png">
 
 # Avaliação Desenvolvedor Softplan - Teste 2
 
