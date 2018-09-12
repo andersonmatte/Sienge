@@ -10,7 +10,7 @@ As tecnologias, frameworks e ferramentas utilizadas foram Java 8, PrimeFaces 6, 
 Para acessar o Sienge, abra um navegador e digite ou cole na barra de endereço a URL http://localhost:8080/sienge/index.xhtml
 
 ### Início:
-<img align="left" width="100%" height="70%" src="/sienge_prints/Sienge_1.png">
+<img align="left" width="100%" height="55%" src="/sienge_prints/Sienge_1.png">
 
 ### Selecionando um veículo:
 ![alt text](/sienge_prints/Sienge_2.png)
