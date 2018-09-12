@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
+
+<h:form id="formTransporte">
+
+	<h:outputScript>
+		function somenteNumeros(input){
+			var s = input.value.replace(/[^\d]/,"");
+			input.value = s;
+		}  
+    </h:outputScript>
+
+	<h:head>
+		<title>Sienge Software para Construção Civil</title>
+	</h:head>
+
+	<h:body>
+		<p:panel header="Calcular Valor Custo Transporte" style="width:100%"
+			id="panelTransporte" footer="Sienge Software para Construção Civil">
+			<h:panelGrid columns="2" id="panelTransporte1" cellpadding="5"
+				rendered="#{siengeMBean.novoTransporte.custoTransporte eq null}">
+				<p:outputLabel for="tipoVeiculo" value="Tipo de veículo"
+					style="width:210px" />
+				<p:selectOneMenu id="tipoVeiculo"
+					value="#{siengeMBean.novoTransporte.veiculo}" lazy="true"
+					style="width:200px">
+					<f:selectItem itemLabel="Selecione" itemValue="" />
+					<f:selectItems value="#{siengeMBean.listaVeiculo}" />
+				</p:selectOneMenu>
+				<p:outputLabel for="distanciaRodoviaPavimentada"
+					value="Distância rodovia pavimentada" style="width:210px" />
+				<p:inputText id="distanciaRodoviaPavimentada"
+					onkeyup="javascript:somenteNumeros(this);"
+					onkeypress="javascript:somenteNumeros(this);"
+					value="#{siengeMBean.novoTransporte.distanciaRodoviaPavimentada}"
+					style="width:200px" />
+				<p:outputLabel for="distanciaRodoviaNaoPavimentada"
+					value="Distância rodovia não-pavimentada" style="width:210px" />
+				<p:inputText id="distanciaRodoviaNaoPavimentada"
+					onkeyup="javascript:somenteNumeros(this);"
+					onkeypress="javascript:somenteNumeros(this);"
+					value="#{siengeMBean.novoTransporte.distanciaRodoviaNaoPavimentada}"
+					style="width:200px" />
+				<p:outputLabel for="carga" value="Carga" style="width:210px" />
+				<p:inputText id="carga" style="width:200px"
+					onkeyup="javascript:somenteNumeros(this);"
+					onkeypress="javascript:somenteNumeros(this);"
+					value="#{siengeMBean.novoTransporte.carga}" />
+				<p:commandButton value="Calcular" id="buttonCalcular"
+					rendered="#{siengeMBean.novoTransporte.custoTransporte eq null}">
+					<p:ajax event="click" listener="#{siengeMBean.calcular}"
+						update="@form" process="@form" />
+				</p:commandButton>
+			</h:panelGrid>
+			<h:panelGrid columns="2" cellpadding="5"
+				rendered="#{siengeMBean.novoTransporte.custoTransporte ne null}">
+				<p:outputLabel id="valorTransporteTotal"
+					value="O custo total do transporte é:" style="width:210px" />
+				<p:outputLabel id="preco"
+					value="#{siengeMBean.novoTransporte.custoTransporte}">
+					<f:convertNumber pattern="#0.00" />
+				</p:outputLabel>
+				<p:commandButton value="Limpar" id="buttonLimpar"
+					actionListener="#{siengeMBean.limpar}" update="@form"
+					rendered="#{siengeMBean.novoTransporte.custoTransporte ne null}"
+					ajax="false">
+				</p:commandButton>
+			</h:panelGrid>
+		</p:panel>
+	</h:body>
+
+</h:form>
+
+</html>
