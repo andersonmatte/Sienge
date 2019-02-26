@@ -37,7 +37,7 @@ http://central.maven.org/maven2/junit/junit/4.10/
 </p> 
 
 ## Importando e Configurando o projeto:
-Após o download do projeto, abra o Eclipse crie um novo projeto do tipo Dynamic Web project ou faça chekout na url do projeto git https://github.com/andersonmatte/Sienge. No new project informe a pasta sienge. Ao final do processo de criação do projeto, deverá ser criado um novo server o Tomcat 7.
+Após o download do projeto, abra o Eclipse crie um novo projeto do tipo Dynamic Web project ou faça checkout na url do projeto git https://github.com/andersonmatte/Sienge. No new project informe a pasta sienge. Ao final do processo de criação do projeto, deverá ser criado um novo server o Tomcat 7.
 Por fim executar o Tomcat e acessar a aplicação via navegador com a url abaixo. Para execução dos testes o Tomcat não é necessário porque os testes rodam via Java Application. 
 
 ## Acessando o sistema Sienge:
